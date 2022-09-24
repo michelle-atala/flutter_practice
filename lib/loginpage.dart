@@ -13,10 +13,16 @@ class _LoginPageState extends State<LoginPage> {
       backgroundColor: Colors.lightBlue,
       body: SafeArea(
           child: Center(
-            
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
+          mainAxisAlignment: MainAxisAlignment.center, 
+        children: [
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children:[
+              Image.asset('assets/StuAtt.jpeg', height: 150,width: 150,),]
+             
+          ),
+          
           SizedBox(
             height: 15.0,
           ),
@@ -93,7 +99,7 @@ class _LoginPageState extends State<LoginPage> {
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text('Don/t have an account?'),
+              Text('Don\'t have an account?'),
               Text(
                 ' Register Here',
                 style:
